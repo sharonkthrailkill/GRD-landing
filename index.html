@@ -36,7 +36,7 @@
   .hero-inner {
     max-width: 1120px;
     margin: 0 auto;
-    padding: 1.5rem 2rem 2rem;
+    padding: 1.5rem 2rem 1.75rem;
   }
   .brand-row {
     display: flex;
@@ -85,31 +85,24 @@
   main {
     max-width: 1120px;
     margin: 0 auto;
-    padding: 1.5rem 2rem 0;
+    padding: 1.25rem 2rem 1.25rem;
   }
   .relationship-note {
-    background: var(--grd-panel);
-    border-left: 4px solid var(--grd-green);
-    border-radius: 0 8px 8px 0;
-    padding: 1.15rem 1.4rem;
-    font-size: 0.96rem;
-    color: var(--grd-text);
-    margin-top: -2.25rem;
-    margin-left: -1.65rem;
-    position: relative;
-    box-shadow: 0 10px 30px -14px rgba(20, 20, 20, 0.18);
+    font-size: 1rem;
+    color: var(--grd-muted);
+    max-width: 42em;
   }
-  .relationship-note a { font-weight: 600; }
+  .relationship-note a { color: var(--grd-green-dark); font-weight: 600; }
 
   footer {
-    margin-top: 1.5rem;
+    margin-top: 0.25rem;
     border-top: 1px solid var(--grd-line);
     background: var(--grd-panel);
   }
   .footer-inner {
     max-width: 1120px;
     margin: 0 auto;
-    padding: 1.5rem 2rem 1.25rem;
+    padding: 1.25rem 2rem 1.25rem;
   }
   .footer-grid {
     display: grid;
@@ -156,7 +149,7 @@
     .brand-row { margin-bottom: 1.25rem; }
     h1 { font-size: 1.85rem; max-width: none; }
     main { padding: 0 1.25rem; }
-    .relationship-note { margin-top: -1.25rem; margin-left: 0; padding: 1rem 1.15rem; }
+    .relationship-note { max-width: none; }
     .cta { display: flex; width: 100%; justify-content: center; }
     .footer-inner { padding: 1.5rem 1.25rem 1.25rem; }
     .footer-grid { grid-template-columns: 1fr; gap: 1.5rem; }
